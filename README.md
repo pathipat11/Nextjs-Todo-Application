@@ -41,6 +41,7 @@ Create a `.env.local` file in the project root and add the following environment
 ```env
 MONGODB_URI=your-mongodb-connection-string
 ```
+**Note:** Ensure that your `.env.local` file is not pushed to version control by including it in your `.gitignore` file to protect sensitive information.
 
 ### Run the Development Server
 Start the development server with:
